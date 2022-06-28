@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TaskView1.MainWindow">
+    <Position X="14.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIgIgAACaABAUAAAgSJAKASECgoAYACiUZyQABBgAE=</HashCode>
+      <FileName>MainWindow.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="data" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TaskView1.sing_up">
+    <Position X="17.75" Y="6" Width="1.5" />
+    <AssociationLine Name="dataBase" Type="TaskView1.DataBase" FixedToPoint="true">
+      <Path>
+        <Point X="18.375" Y="6" />
+        <Point X="18.375" Y="2.238" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>BAwAAAAAAiAEAIAAAACAAAADAAAEABAIAAAAAABAAAA=</HashCode>
+      <FileName>sing_up.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="dataBase" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TaskView1.log_in">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAEAAEAACCAgAACAggkAABAAAAABABCAAA=</HashCode>
+      <FileName>log_in.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="dataBase" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TaskView1.DataBase">
+    <Position X="18" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAEAABAAAA=</HashCode>
+      <FileName>DataBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="sqlConnection" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TaskView1.Addform">
+    <Position X="21.25" Y="2.5" Width="1.5" />
+    <AssociationLine Name="dataBase" Type="TaskView1.DataBase" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="21.25" Y="4.344" />
+        <Point X="19.125" Y="4.344" />
+        <Point X="19.125" Y="2.238" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAACCAFIRAAAACAAIACIAAAAAAAoAAgAAAAAAA=</HashCode>
+      <FileName>Addform.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="dataBase" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Microsoft.Data.SqlClient.SqlConnection" Collapsed="true">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Enum Name="TaskView1.RowState">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAABAAEAAAAAAAAAAQAAAAEAAAAAA=</HashCode>
+      <FileName>MainWindow.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
